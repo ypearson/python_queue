@@ -78,9 +78,11 @@ def whoGoesNext():
             print(f'Queues are all empty')
             allEmpty = True
 
-ret = ''
-while ret != 'allFull':
-    ret = carHasArrived(getCarId(), getCarDirection())
-print(f'All queues full!')
+if __name__ == '__main__':
 
-whoGoesNext()
+    ret = ''
+    while ret != 'allFull':
+        ret = carHasArrived(getCarId(), getCarDirection())
+    print(f'All queues full!')
+
+    whoGoesNext()
