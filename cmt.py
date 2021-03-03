@@ -3,7 +3,7 @@ from queue import Queue
 from random import randint
 import uuid
 
-SZ=4
+SZ=3
 NUM_OF_QUEUES=4
 DIRECTIONS=['D1','D2', 'D3', 'D4']
 
